@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simpsons Hangman</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body onload="gameStart()">
+
+<h1>Simpsons Hangman</h1>
+
+<div id="lossDisplay">
+<img id="bartLoss" src="assets/images/bartLoss.gif">
+	<div id="fullBubbleLoss">
+		<img class="bubble" src="assets/images/bubble.png">
+		<span id="lossSpeech">Eat my<br>shorts!</span>
+	</div>
+</div>
+
+<div id="main">
+	<span id="instructions">Press keys to guess the word!</span>
+	<br><br>
+	<span id="answer"></span>
+	<br>
+	<br>
+	<span id="counter"></span>
+	<br>
+	<br>
+	<span id="guessed"></span>
+	<br>
+	<br>
+	<span id="playAgain"></span>
+</div>
+
+<div id="winDisplay">
+	<img id="bartWin" src="assets/images/bartWin.gif">
+	<div id="fullBubbleWin">
+		<img id="winBubble" class="bubble" src="assets/images/bubble.png">
+		<span id="winSpeech">Cowabunga,<br>man!</span>
+</div>
+
+</body>
+<script src='assets/javascript/game.js'></script>
+</html>

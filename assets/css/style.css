@@ -1,0 +1,109 @@
+@font-face {
+    font-family: simpsonsFont;
+    src: url(../Simpsonfont.ttf);
+}
+
+body {
+	background-color: #fddd00;
+}
+
+h1 {
+	font-family: simpsonsFont;
+	font-size: 80px;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	word-spacing: 40px;
+}
+
+span {
+	font-family: simpsonsFont;
+	width: 40%;
+	line-height: 40px;
+}
+
+#answer {
+	letter-spacing: 6px;
+}
+
+#fullBubbleLoss{
+	position: absolute;
+	width: 20%;
+	left: 15%;
+}
+
+.bubble {
+	width: 80%;
+}
+
+#lossSpeech {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-size: 25px;
+	position: absolute;
+	left: 20%;
+	top: 30%;
+	text-align: center;
+}
+
+#main {
+	display: inline;
+	position: absolute;
+	width: 30%;
+	font-family: simpsonsFont;
+	left: 45%;
+	font-size: 20px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	margin-left: -10%;
+	margin-top: 40px;
+}
+
+#bartLoss {
+	display: inline;
+	position: absolute;
+	width: 40%;
+	left: -10%;
+	margin-top: -40px;
+	float: left;
+	/*opacity: 0;*/
+}
+
+#bartWin {
+	width: 35%;
+	position: absolute;
+	right: 6%;
+	float: left;
+}
+
+#fullBubbleWin{
+	position: absolute;
+	width: 15%;
+	left: 84%;
+}
+
+#winSpeech {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-size: 25px;
+	position: absolute;
+	right: 0%;
+	top: 30%;
+	width: 100%;
+	text-align: center;
+}
+
+#winBubble {
+	width: 100%;
+}
+
+#lossDisplay {
+	opacity: 0;
+}
+
+#winDisplay {
+	opacity: 0;
+}
+
+#playAgain {
+	font-size: 40px;
+}
